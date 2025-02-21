@@ -98,7 +98,7 @@ class Database:
         formatted_data_lines = []
         for row in new_data:
             formatted_row = ",".join([
-                value if (value.startswith('"') and value.endswith('"'))
+                value if (str(value).startswith('"') and str(value).endswith('"'))
                 else f'"{value}"'
                 for value in row
             ])
