@@ -1,0 +1,4 @@
+START TABLE funcionarios
+TABLE SCHEMA id,nome,email,telefone
+"1","João","email@gmail.com","82999999999"
+END TABLE
