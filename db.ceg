@@ -1,4 +1,5 @@
 START TABLE funcionarios
 TABLE SCHEMA id,nome,email,telefone
 "1","João","email@gmail.com","82999999999"
+"953817c585ff40e2b930df1cd59ab2cd","João Pedro","nmjoaopedro22@gmail.com","82992820755"
 END TABLE
