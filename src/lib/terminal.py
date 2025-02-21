@@ -3,10 +3,7 @@ class Terminal:
         pass
 
     @staticmethod
-    def print_header(title: str):
-        padding_x = 2
-        padding_y = 1
-
+    def print_header(title: str, padding_x: int = 2, padding_y: int = 1):
         print(f"\n{'=' * (len(title) + padding_x * 2)}")
         print("\n" * (max(0, padding_y - 1)))
         print(f"{' ' * padding_x}{title}")
