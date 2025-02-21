@@ -6,9 +6,12 @@ END TABLE
 
 START TABLE projetos
 TABLE SCHEMA id,nome,descricao
-"126f13b6dff740499f36deb11181f22c","luan luvas","123123"
 END TABLE
 
 START TABLE financeiro
 TABLE SCHEMA id,nome,descricao,tipo,valor
+END TABLE
+
+START TABLE clientes
+TABLE SCHEMA id,nome
 END TABLE

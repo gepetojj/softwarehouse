@@ -2,6 +2,7 @@ from src.lib.terminal import Terminal
 from src.modules.logged_in.manage_employees import manage_employees
 from src.modules.logged_in.manage_projects import manage_projects
 from src.modules.logged_in.manage_cash import manage_cash
+from src.modules.logged_in.manage_customers import manage_customers
 
 
 def logged_in(user: dict):
@@ -17,6 +18,7 @@ def logged_in(user: dict):
                     "Gerenciar funcionários",
                     "Gerenciar projetos",
                     "Gerenciar caixa",
+                    "Gerenciar clientes",
                     "Voltar"
                 ]
             )
@@ -34,6 +36,8 @@ def logged_in(user: dict):
             case 2:
                 manage_cash()
             case 3:
+                manage_customers()
+            case 4:
                 break
             case _:
                 Terminal.clear()
