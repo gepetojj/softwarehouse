@@ -1,5 +1,6 @@
 from src.lib.terminal import Terminal
 from src.modules.logged_in.manage_employees import manage_employees
+from src.modules.logged_in.manage_projects import manage_projects
 
 
 def logged_in(user: dict):

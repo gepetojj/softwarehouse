@@ -3,3 +3,8 @@ TABLE SCHEMA id,nome,email,telefone
 "1","João","email@gmail.com","82999999999"
 "953817c585ff40e2b930df1cd59ab2cd","João Pedro","nmjoaopedro22@gmail.com","82992820755"
 END TABLE
+
+START TABLE projetos
+TABLE SCHEMA id,nome,descricao
+"126f13b6dff740499f36deb11181f22c","luan luvas","123123"
+END TABLE
